@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../images/bg-body.png');
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+
+.logo {
+    position: relative;
+    margin-left: 30vw;
+    width: 30vw;
+    height: 20vh;
+    border-radius: 150px;
+}
+
+#icono {
+    position: relative;
+    width: 30vw;
+    height: 10vh;
+    font-size: 30px;
+    top: 5vh;
+    left: -18vw;
+}
+
+.main-nav {
+    padding-left: 41%;
+    background-color: #1C1C1C;
+}
+
+#estilo {
+    list-style: none;
+    border-top: 1px solid white;
+}
