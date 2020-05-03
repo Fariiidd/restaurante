@@ -7,6 +7,8 @@
 body {
     background-image: url('../images/bg-body.png');
 }
+
+
 /*Header*/
 
 .logo {
@@ -24,66 +26,77 @@ body {
     top: 5vh;
     left: -18vw;
 }
+
 #estilo {
     list-style: none;
     padding-left: 0;
     text-align: center;
     background-color: #2E2E2E;
+    margin-top: 35px;
 }
 
-.main-nav ul li  {
+.main-nav ul li {
     border-bottom: 1px solid white;
 }
 
 
 /*Pagina*/
-.more{
+
+.more {
     background-color: #2E2E2E;
-    height: 10%;
-    font-size: 234%;
+    font-size: 22px;
     padding: 20px;
+    margin-bottom: 0px;
 }
 
-.product{
-    margin-bottom: 25px;
+p {
+    margin-bottom: 70px;
+    margin-top: 25px;
 }
 
-.zoom{
+.zoom {
     background-color: rgba(1, 1, 1, 0.6);
     display: block;
     text-align: center;
     position: relative;
-    bottom:276px;
+    bottom: 12vh;
+    font-size: 22px;
 }
 
 
 /*footer*/
 
-.main-footer ul li{
+.main-footer ul li {
     list-style: none;
     text-align: center;
     background-color: red;
-    margin-right: 61px;
-
-
+    border-bottom: 1px solid white;
+    margin-right: 0px;
+    margin-left: -41px;
 }
+
+#lista-footer {
+    margin-top: 49px;
+}
+
 
 /*Imagenes*/
 
-.photo-container{
+.photo-container {
     position: relative;
 }
 
-.photo{
+.photo {
     position: relative;
     width: 100%;
-    height: 25vh;
+    height: 20vh;
+    margin-top: 54px;
 }
 
-.special{
+.special {
     position: absolute;
     z-index: 10;
-    margin-left: 76%;
-    top: 0%;
+    margin-left: -25%;
+    top: 54px;
     width: 20vw;
 }
