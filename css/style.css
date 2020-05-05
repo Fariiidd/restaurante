@@ -16,6 +16,7 @@ body {
     margin-left: 35%;
     width: 30%;
     border-radius: 150px;
+    border: 1px solid #CACACA;
 }
 
 #icono {
@@ -24,7 +25,7 @@ body {
     height: 10vh;
     font-size: 40px;
     top: 5vh;
-    left: -18vw;
+    left: -19vw;
 }
 
 #estilo {
@@ -99,4 +100,48 @@ p {
     margin-left: -25%;
     top: 54px;
     width: 20vw;
+}
+
+.banner{
+    display: none;
+}
+
+@media(min-width:426px) and (max-width: 768px){ 
+
+    #estilo {
+        display: flex;
+        justify-content: space-around;
+        font-size: 100%;
+    }
+    
+    .main-nav ul li {
+            padding: 26px;
+            margin: 0px;
+          
+    }
+    
+
+    #icono{
+        display: none;
+    }
+
+
+    .estilo{
+        background-color: rgba(0, 0, 0, 1);
+    }
+    
+     .banner{
+         display: block;
+     }
+
+   .vip-products{
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+       justify-content: space-around;
+       align-items: flex-end;
+       
+
+   }
+
 }
