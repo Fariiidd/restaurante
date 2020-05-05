@@ -130,18 +130,31 @@ p {
         background-color: rgba(0, 0, 0, 1);
     }
     
+
+
+    /* Imagenes */
+ 
+
+    .special{
+        margin-left: -37%;
+        width: 14vw;
+
+    }
+
      .banner{
          display: block;
      }
 
-   .vip-products{
-       display: flex;
-       flex-wrap: wrap;
-       flex-direction: row;
-       justify-content: space-around;
-       align-items: flex-end;
-       
 
+
+
+
+    /* Flexbox */
+   .vip-products{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: space-between;
    }
 
 }
