@@ -102,59 +102,82 @@ p {
     width: 20vw;
 }
 
-.banner{
+.banner {
     display: none;
 }
 
-@media(min-width:426px) and (max-width: 768px){ 
-
+@media(min-width:426px) and (max-width: 768px) {
     #estilo {
         display: flex;
         justify-content: space-around;
         font-size: 100%;
     }
-    
     .main-nav ul li {
-            padding: 26px;
-            margin: 0px;
-          
+        padding: 26px;
+        margin: 0px;
     }
-    
-
-    #icono{
+    #icono {
         display: none;
     }
-
-
-    .estilo{
+    .estilo {
         background-color: rgba(0, 0, 0, 1);
     }
-    
-
-
-    /* Imagenes */
- 
-
-    .special{
-        margin-left: -37%;
-        width: 14vw;
-
+    .zoom {
+        bottom: 16vh;
     }
-
-     .banner{
-         display: block;
-     }
-
-
-
-
-
+    /* Imagenes */
+    .special {
+        margin-left: -25%;
+        width: 10vw;
+    }
+    .banner {
+        display: block;
+    }
+    .photo {
+        height: 28vh;
+    }
     /* Flexbox */
-   .vip-products{
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    justify-content: space-between;
-   }
-
+    .vip-products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .product {
+        width: 48vw;
+    }
+    /* Header*/
+    #estilo {
+        background-color: unset;
+    }
+    #home {
+        background-color: #2E2E2E;
+        padding: 11px;
+        margin-right: 27px;
+        margin-left: -1px;
+    }
+    #quienes {
+        background-color: #2E2E2E;
+        padding: 11px;
+        margin-right: 27px;
+    }
+    #servicios {
+        background-color: #2E2E2E;
+        padding: 11px;
+        margin-right: 27px;
+    }
+    #portfolio {
+        background-color: #2E2E2E;
+        padding: 11px;
+        margin-right: 27px;
+    }
+    #sucursales {
+        background-color: #2E2E2E;
+        padding: 11px;
+        margin-right: 27px;
+    }
+    #contacto {
+        background-color: #2E2E2E;
+        padding: 11px;
+        margin-right: -1px;
+    }
 }
