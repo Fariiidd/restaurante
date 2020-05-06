@@ -106,6 +106,9 @@ p {
     display: none;
 }
 
+
+/* Table */
+
 @media(min-width:426px) and (max-width: 768px) {
     #estilo {
         display: flex;
@@ -136,7 +139,7 @@ p {
     .photo {
         height: 28vh;
     }
-    /* Flexbox */
+    /* Flexbox productos*/
     .vip-products {
         display: flex;
         flex-wrap: wrap;
@@ -145,7 +148,7 @@ p {
     .product {
         width: 48vw;
     }
-    /* Header*/
+    /* Header enlaces*/
     #estilo {
         background-color: unset;
     }
@@ -179,5 +182,123 @@ p {
         background-color: #2E2E2E;
         padding: 11px;
         margin-right: -1px;
+    }
+}
+
+@media(min-width: 769px) {
+    .logo {
+        margin-left: 41%;
+        width: 18%;
+        border-radius: 237px;
+    }
+    #icono {
+        display: none;
+    }
+    #estilo {
+        display: flex;
+        justify-content: space-around;
+        font-size: 100%;
+    }
+    .main-nav ul li {
+        padding: 26px;
+        margin: 0px;
+    }
+    /* Header enlaces*/
+    #estilo {
+        background-color: unset;
+    }
+    #home {
+        background-color: #2E2E2E;
+        width: 150px;
+        height: 50px;
+        padding: 16px;
+        margin-right: 20px;
+        margin-left: 39px;
+    }
+    #quienes {
+        background-color: #2E2E2E;
+        width: 150px;
+        height: 50px;
+        padding: 16px;
+        margin-right: 20px;
+    }
+    #servicios {
+        background-color: #2E2E2E;
+        width: 150px;
+        height: 50px;
+        padding: 16px;
+        margin-right: 20px;
+    }
+    #portfolio {
+        background-color: #2E2E2E;
+        width: 150px;
+        height: 50px;
+        padding: 16px;
+        margin-right: 20px;
+    }
+    #sucursales {
+        background-color: #2E2E2E;
+        width: 150px;
+        height: 50px;
+        padding: 16px;
+        margin-right: 20px;
+    }
+    #contacto {
+        background-color: #2E2E2E;
+        width: 150px;
+        height: 50px;
+        padding: 16px;
+        margin-right: 41px;
+    }
+    /* Flexbox productos*/
+    .vip-products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .product {
+        width: 350px;
+        margin-bottom: 30px;
+        margin-left: 31px;
+        margin-right: 44px;
+        padding-left: 17px;
+    }
+    /* Imagenes */
+    .special {
+        margin-left: -31%;
+        width: 7vw;
+    }
+    .banner {
+        display: block;
+        width: 1180px;
+        margin-left: 48px;
+        margin-bottom: 30px;
+    }
+    .photo {
+        height: 28vh;
+    }
+    /* Footer */
+    .main-footer {
+        background-color: red;
+        margin-top: 30px;
+        padding: 18px;
+        padding-top: 5px;
+        border-radius: 22px;
+        border: 7px solid red;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    .main-footer ul li {
+        display: inline;
+        margin-left: 10px;
+    }
+    .main-footer li+li:before {
+        content: ' | ';
+        padding: 0 5px;
+        font-weight: bold;
+        color: white;
+    }
+    #lista-footer {
+        text-align: center;
     }
 }
