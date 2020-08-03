@@ -1,11 +1,10 @@
 * {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    ;
 }
 
 body {
     background-image: url('../images/bg-body.png');
+    font-family: 'Fira Mono', monospace;
 }
 
 
@@ -21,11 +20,15 @@ body {
 
 #icono {
     position: relative;
-    width: 30vw;
-    height: 10vh;
+    width: 30px;
+    height: 70px;
     font-size: 40px;
-    top: 5vh;
-    left: -19vw;
+    top: 40px;
+    left: -88px;
+}
+
+#color-icono{
+    color: black;
 }
 
 #estilo {
@@ -38,6 +41,18 @@ body {
 
 .main-nav ul li {
     border-bottom: 1px solid white;
+}
+
+.main-nav li {
+    text-decoration: none;
+}
+
+.main-nav a {
+    text-decoration: none;
+}
+
+.main-nav b {
+    color: white;
 }
 
 
@@ -64,16 +79,29 @@ p {
     font-size: 22px;
 }
 
+.product b{
+    color: white;
+}
+
 
 /*footer*/
 
 .main-footer ul li {
     list-style: none;
     text-align: center;
-    background-color: red;
-    border-bottom: 1px solid white;
+    background-color: #8A2222;
     margin-right: 0px;
     margin-left: -41px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+.main-footer a{
+    text-decoration: none;
+}
+
+.main-footer b{
+    color: white;
 }
 
 #lista-footer {
@@ -107,17 +135,13 @@ p {
 }
 
 
-/* Table */
+/* Tablet */
 
-@media(min-width:426px) and (max-width: 768px) {
+@media(min-width: 768px) and (max-width: 1023px) {
     #estilo {
         display: flex;
         justify-content: space-around;
         font-size: 100%;
-    }
-    .main-nav ul li {
-        padding: 26px;
-        margin: 0px;
     }
     #icono {
         display: none;
@@ -185,7 +209,7 @@ p {
     }
 }
 
-@media(min-width: 769px) {
+@media(min-width: 1024px) {
     .logo {
         margin-left: 41%;
         width: 18%;
@@ -213,7 +237,7 @@ p {
         height: 50px;
         padding: 16px;
         margin-right: 20px;
-        margin-left: 39px;
+        margin-left: 4px;
     }
     #quienes {
         background-color: #2E2E2E;
@@ -248,7 +272,7 @@ p {
         width: 150px;
         height: 50px;
         padding: 16px;
-        margin-right: 41px;
+        margin-right: 5px;
     }
     /* Flexbox productos*/
     .vip-products {
@@ -257,34 +281,30 @@ p {
         justify-content: space-around;
     }
     .product {
-        width: 350px;
+        width: 400px;
         margin-bottom: 30px;
-        margin-left: 31px;
-        margin-right: 44px;
-        padding-left: 17px;
     }
     /* Imagenes */
     .special {
-        margin-left: -31%;
         width: 7vw;
     }
     .banner {
         display: block;
-        width: 1180px;
-        margin-left: 48px;
-        margin-bottom: 30px;
+        width: 1000px;
+        margin-left: 3px;
+        margin-bottom: -30px;
     }
     .photo {
         height: 28vh;
     }
     /* Footer */
     .main-footer {
-        background-color: red;
+        background-color: #8A2222;
         margin-top: 30px;
         padding: 18px;
         padding-top: 5px;
         border-radius: 22px;
-        border: 7px solid red;
+        border: 7px solid #8A2222;
         margin-right: 25px;
         margin-left: 25px;
     }
@@ -300,5 +320,80 @@ p {
     }
     #lista-footer {
         text-align: center;
+    }
+    .main-footer ul li {
+        padding-bottom: none;
+        border-bottom: none;
+    }
+}
+
+@media(min-width: 1440px) and (max-width: 1919px){
+    #home {
+        padding: 16px;
+        margin-left: 18px;
+    }
+    #quienes {
+        width: 218px;
+    }
+    #servicios {
+        width: 218px;
+    }
+    #portfolio {
+        width: 218px;
+    }
+    #sucursales {
+        width: 218px;
+    }
+    #contacto {
+        width: 218px;
+    }
+    .banner{
+        width: 1400px;
+        margin-left: 20px;
+    }
+
+    .product{
+        width: 450px;
+        margin-left: 15px;
+    }
+    .main-footer ul li {
+        padding-bottom: none;
+        border-bottom: none;
+    }
+
+}
+
+@media(min-width: 1920px) {
+    #home {
+        margin-left: 22px;
+        width: 210px;
+    }
+    #quienes {
+        width: 210px;
+    }
+    #servicios {
+        width: 210px;
+    }
+    #portfolio {
+        width: 210px;
+    }
+    #sucursales {
+        width: 210px;
+    }
+    #contacto {
+        width: 210px;
+        margin-right: 22px;
+    }
+    .banner{
+        width: 1800px;
+        margin-left: 45px;
+    }
+
+    .product{
+        width: 543px;
+    }
+    .main-footer ul li {
+        padding-bottom: none;
+        border-bottom: none;
     }
 }
